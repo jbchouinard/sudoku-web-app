@@ -4,7 +4,6 @@ import {
     MODAL_TYPE_WELCOME,
     MODAL_TYPE_INVALID_INITIAL_DIGITS,
     MODAL_TYPE_PASTE,
-    MODAL_TYPE_SHARE,
     MODAL_TYPE_SETTINGS,
     MODAL_TYPE_CHECK_RESULT,
     MODAL_TYPE_PAUSED,
@@ -13,7 +12,6 @@ import {
     MODAL_TYPE_SOLVER,
     MODAL_TYPE_HELP,
     MODAL_TYPE_ABOUT,
-    MODAL_TYPE_QR_CODE,
 } from '../../lib/modal-types';
 
 
@@ -25,10 +23,8 @@ import ModalConfirmClearColorHighlights from './modal-confirm-clear-color-highli
 import ModalCheckResult from './modal-check-result';
 import ModalPaused from './modal-paused';
 import ModalPaste from './modal-paste';
-import ModalShare from './modal-share';
 import ModalSolver from './modal-solver';
 import ModalSettings from './modal-settings';
-import ModalQRCode from './modal-qr-code';
 import HelpPage from '../help/help';
 
 import "./modal.css";
@@ -58,9 +54,6 @@ export default function ModalContainer({modalState, modalHandler, menuHandler}) 
     else if (modalState.modalType === MODAL_TYPE_ABOUT) {
         content = <ModalAbout modalHandler={modalHandler} />;
     }
-    else if (modalState.modalType === MODAL_TYPE_SHARE) {
-        content = <ModalShare modalState={modalState} modalHandler={modalHandler} menuHandler={menuHandler} />;
-    }
     else if (modalState.modalType === MODAL_TYPE_SETTINGS) {
         content = <ModalSettings modalState={modalState} modalHandler={modalHandler} />;
     }
@@ -81,9 +74,6 @@ export default function ModalContainer({modalState, modalHandler, menuHandler}) 
     }
     else if (modalState.modalType === MODAL_TYPE_HELP) {
         content = <HelpPage modalHandler={modalHandler} />;
-    }
-    else if (modalState.modalType === MODAL_TYPE_QR_CODE) {
-        content = <ModalQRCode modalState={modalState} modalHandler={modalHandler} />;
     }
     else {
         console.log('<Modal />: Unhandled modalState:', modalState);

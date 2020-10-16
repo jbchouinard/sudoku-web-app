@@ -11,9 +11,6 @@ import SudokuGrid from '../sudoku-grid/sudoku-grid';
 import VirtualKeyboard from '../virtual-keyboard/virtual-keyboard';
 import ModalContainer from '../modal/modal-container';
 
-import { MODAL_TYPE_WELCOME } from '../../lib/modal-types';
-
-const FETCH_DELAY = 1000;
 
 // Keycode definitions (independent of shift/ctrl/etc)
 const KEYCODE = {
@@ -397,10 +394,7 @@ function dispatchModalAction(action, setGrid) {
 }
 
 function dispatchMenuAction(action, setGrid) {
-    if (action === 'show-share-modal') {
-        setGrid((grid) => modelHelpers.showShareModal(grid));
-    }
-    else if (action === 'show-paste-modal') {
+    if (action === 'show-paste-modal') {
         setGrid((grid) => modelHelpers.showPasteModal(grid));
     }
     else if (action === 'show-settings-modal') {

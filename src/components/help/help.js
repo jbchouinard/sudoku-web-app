@@ -152,11 +152,6 @@ export default function HelpPage({modalHandler}) {
                 ('0' for empty cells).  You could enter that string directly in the URL, but the
                 URL bar is not always available on mobile devices when you've saved this site to
                 your home screen.</dd>
-                <dt>Browse “recently shared”</dt>
-                <dd>This option allows you to select puzzles that other users have shared recently
-                on the SudokuExchange web site.  This list of puzzles is gather from the web
-                server logs (through a process that should be a lot more automated than it
-                currently is).</dd>
                 <dt>About this app</dt>
                 <dd>Find information about the application version number, who wrote it and where
                 you can get access to the source code.</dd>

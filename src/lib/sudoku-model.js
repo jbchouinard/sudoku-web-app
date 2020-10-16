@@ -5,7 +5,6 @@ import {
     MODAL_TYPE_WELCOME,
     MODAL_TYPE_INVALID_INITIAL_DIGITS,
     MODAL_TYPE_PASTE,
-    MODAL_TYPE_SHARE,
     MODAL_TYPE_SETTINGS,
     MODAL_TYPE_CHECK_RESULT,
     MODAL_TYPE_PAUSED,
@@ -577,16 +576,6 @@ export const modelHelpers = {
         return grid;
     },
 
-    showShareModal: (grid) => {
-        return grid.set('modalState', {
-            modalType: MODAL_TYPE_SHARE,
-            initialDigits: grid.get('initialDigits'),
-            difficultyLevel: grid.get('difficultyLevel'),
-            startTime: grid.get('startTime'),
-            endTime: grid.get('endTime'),
-        });
-    },
-
     showPasteModal: (grid) => {
         return grid.set('modalState', { modalType: MODAL_TYPE_PASTE });
     },
@@ -639,9 +628,6 @@ export const modelHelpers = {
         else if (action === 'goto-main-entry') {
             window.location.search = '';
             return grid;
-        }
-        else if (action === 'show-share-modal') {
-            return modelHelpers.showShareModal(grid);
         }
         else if (action === 'retry-initial-digits') {
             return modelHelpers.retryInitialDigits(grid, args);

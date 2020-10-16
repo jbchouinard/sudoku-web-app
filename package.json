@@ -1,7 +1,7 @@
 {
-  "name": "sudoku-web-app-local",
+  "name": "sudoku-player",
   "version": "0.1.0",
-  "description": "Fork of SudokuExchange.com modified for local use.",
+  "description": "Sudoku player forked from sudoku-web-app (SudokuExchange.com).",
   "contributors": [
     "Grant McLean <grant@mclean.net.nz> (https://grantm.github.io/)",
     "Jérome Boisvert-Chouinard <me@jbchouinard.net> (https://github.com/jbchouinard)"

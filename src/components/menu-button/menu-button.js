@@ -60,10 +60,6 @@ function MenuButton ({initialDigits, startTime, endTime, showPencilmarks, menuHa
             { overlay }
             <button type="button" title="Menu" onClick={toggleHandler}><MenuIcon /></button>
             <ul onClick={clickHandler}>
-                <li className={shareLinkClass}>
-                    <a href="./" data-menu-action="show-share-modal"
-                    >Share this puzzle</a>
-                </li>
                 <li>
                     <a href="./" data-menu-action="toggle-show-pencilmarks">{showHidePencilmarks} pencil marks</a>
                 </li>
