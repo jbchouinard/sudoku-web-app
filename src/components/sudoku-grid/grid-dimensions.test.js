@@ -41,14 +41,14 @@ test('calculateGridDimensions: normal', () => {
     const offsets = dim.outerPencilOffsets;
     expect(offsets).toStrictEqual([
         { key: 'tl', x: 18, y: 30 },
-        { key: 'tr', x: 80, y: 30 },
-        { key: 'bl', x: 18, y: 90 },
-        { key: 'br', x: 80, y: 90 },
         { key: 'tc', x: 49, y: 30 },
-        { key: 'bc', x: 49, y: 90 },
+        { key: 'tr', x: 80, y: 30 },
         { key: 'lc', x: 18, y: 60 },
-        { key: 'rc', x: 80, y: 60 },
         { key: 'cc', x: 49, y: 60 },
+        { key: 'rc', x: 80, y: 60 },
+        { key: 'bl', x: 18, y: 90 },
+        { key: 'bc', x: 49, y: 90 },
+        { key: 'br', x: 80, y: 90 },
     ]);
 });
 
@@ -73,13 +73,13 @@ test('calculateGridDimensions: large', () => {
     const offsets = dim.outerPencilOffsets;
     expect(offsets).toStrictEqual([
         { key: 'tl', x:  36, y:  60 },
-        { key: 'tr', x: 160, y:  60 },
-        { key: 'bl', x:  36, y: 180 },
-        { key: 'br', x: 160, y: 180 },
         { key: 'tc', x:  98, y:  60 },
-        { key: 'bc', x:  98, y: 180 },
+        { key: 'tr', x: 160, y:  60 },
         { key: 'lc', x:  36, y: 120 },
-        { key: 'rc', x: 160, y: 120 },
         { key: 'cc', x:  98, y: 120 },
+        { key: 'rc', x: 160, y: 120 },
+        { key: 'bl', x:  36, y: 180 },
+        { key: 'bc', x:  98, y: 180 },
+        { key: 'br', x: 160, y: 180 },
     ]);
 });

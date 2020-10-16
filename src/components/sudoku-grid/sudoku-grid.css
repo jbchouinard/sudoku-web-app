@@ -107,8 +107,15 @@ a:hover .difficulty-bar {
 
 text.inner-pencil,
 .outer-pencil text {
-    fill: var(--pencil-mark-color);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+text.inner-pencil {
+    fill: var(--inner-pencil-mark-color);
+}
+
+.outer-pencil text {
+    fill: var(--outer-pencil-mark-color);
 }
 
 .animate .solved .cell-bg[data-ring="5"] .cell-select-match-overlay { animation: 1600ms linear 0ms 1 running rainbow; }

@@ -8,11 +8,10 @@ function SudokuCellOuterPencilMarks({cell, dim, cellSize, offsets}) {
         return null;
     }
     const fontSize = 26 * cellSize / 100;
-    let i = 0;
     const marks = allDigits
         .filter(d => pm.includes(d))
         .map((d) => {
-            const offset = offsets[i++];
+            const offset = offsets[d - 1];
             return (
                 <text
                     key={offset.key}
