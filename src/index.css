@@ -45,7 +45,8 @@
     --visited-digit-color: #aaaaaa;
     --paused-digit-color: #00000033;
     --digit-color: #4444dd;
-    --pencil-mark-color: #4444dd;
+    --inner-pencil-mark-color: #4444dd;
+    --outer-pencil-mark-color: #dd4444;
     --error-fill-color: #ff111133;
     --error-text-color: #aa0000;
     --selected-fill-color: #004fe368;
@@ -124,7 +125,8 @@
     --visited-digit-color: #666666;
     --paused-digit-color: #7b7272;
     --digit-color: #6d96e6;
-    --pencil-mark-color: #6c9cfd;
+    --inner-pencil-mark-color: #6c9cfd;
+    --outer-pencil-mark-color: #fd6c9c;
     --error-fill-color: #60020278;
     --error-text-color: #b33d3d;
     --selected-fill-color: #3058a48a;

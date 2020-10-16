@@ -465,9 +465,6 @@ function App() {
     const inputMode = grid.get('tempInputMode') || grid.get('inputMode');
     const completedDigits = grid.get('completedDigits');
     const modalState = grid.get('modalState');
-    if (modalState && modalState.modalType === MODAL_TYPE_WELCOME && modalState.fetchRequired) {
-        modelHelpers.fetchRecentlyShared(grid, setGrid, FETCH_DELAY);
-    }
     const modalActive = modalState !== undefined;
 
     const mouseDownHandler = useCallback(e => cellMouseDownHandler(e, setGrid), []);

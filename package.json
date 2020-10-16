@@ -1,15 +1,14 @@
 {
-  "name": "sudoku-web-app",
-  "version": "1.0.16",
-  "description": "A web application for solving & sharing Sudoku puzzles. Created for SudokuExchange.com",
-  "author": {
-    "name": "Grant McLean",
-    "email": "grant@mclean.net.nz",
-    "url": "https://grantm.github.io/"
-  },
+  "name": "sudoku-web-app-local",
+  "version": "0.1.0",
+  "description": "Fork of SudokuExchange.com modified for local use.",
+  "contributors": [
+    "Grant McLean <grant@mclean.net.nz> (https://grantm.github.io/)",
+    "Jérome Boisvert-Chouinard <me@jbchouinard.net> (https://github.com/jbchouinard)"
+  ],
   "license": "AGPLV3",
-  "repository": "github:grantm/sudoku-web-app",
-  "bugs": "https://github.com/grantm/sudoku-web-app/issues",
+  "repository": "github:jbchouinard/sudoku-web-app",
+  "bugs": "https://github.com/jbchouinard/sudoku-web-app/issues",
   "keywords": [
     "sudoku"
   ],
@@ -48,5 +47,5 @@
     ]
   },
   "homepage": ".",
-  "proxy": "http://sudokuexchange.localhost:1080"
+  "proxy": "http://localhost:8080"
 }
