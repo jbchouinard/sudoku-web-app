@@ -77,8 +77,7 @@
     background-color: var(--modal-button-primary-bg-color);
 }
 
-.modal .buttons a.btn,
-.modal .buttons button {
+button {
     font-family: var(--app-font-family); /* override browser button font */
     font-size: 1.3rem;
     font-weight: bold;

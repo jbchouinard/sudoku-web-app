@@ -1,5 +1,5 @@
 :root {
-    --app-font-family: 'Helvetica Neue', Arial, sans-serif;
+    --app-font-family: monospace;
     --background-color: #ffffff;
     --text-color: #333333;
     --link-text-color: #0000ff;
@@ -89,7 +89,7 @@
     --link-hover-text-color: #acddfb;
     --link-hover-bg-color: #535353;
     --status-bar-text-color: #dfdfdf;
-    --status-bar-bg: linear-gradient(#635c5d, #403b3c);
+    --status-bar-bg: linear-gradient(#633c3d, #401b1c);
     --status-bar-border-color: #000000;
     --status-bar-button-hover-color: #726c6d;
     --menu-border-color: #171717;
@@ -105,7 +105,9 @@
     --modal-backdrop-color: #00000088;
     --modal-heading-underline-color: #888888;
     --modal-button-text-color: #cabdbd;
-    --modal-button-bg-color: #726c6d;
+    --modal-button-bg-color: #633c3d;
+    --button-bg-color: #a3343d;
+    --modal-button-primary-bg-color: #a33c3d;
     --modal-button-danger-text-color: #cabdbd;
     --modal-button-danger-bg-color: #ce4f58;
     --button-hover-shadow: 0 0 2px #ffffff;
@@ -145,7 +147,6 @@
     --solved-given-digit-color: #595959;
     --solved-fill-color: #77e877;
     --error-selected-fill-color: #ff8c8c;
-    --button-bg-color: #acddfb;
     --button-text-color: #333333;
     --grid-line-width: 2;
     --grid-line-width-bold: 5;
