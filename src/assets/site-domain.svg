@@ -28,12 +28,13 @@
      id="namedview7"
      showgrid="false"
      inkscape:zoom="0.53649359"
-     inkscape:cx="2118.1101"
-     inkscape:cy="77.65524"
+     inkscape:cx="1321.4545"
+     inkscape:cy="270.6988"
      inkscape:window-x="1920"
      inkscape:window-y="20"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0" />
   <defs
      id="defs954" />
   <metadata
@@ -44,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,15 +54,15 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:44.0659px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.367216"
-       x="-444.98251"
-       y="164.19128"
+       style="font-style:normal;font-weight:normal;font-size:54.1795px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.451497"
+       x="-467.50647"
+       y="189.74983"
        id="text11"
-       transform="scale(0.73663976,1.3575156)"><tspan
+       transform="scale(0.83654016,1.1953999)"><tspan
          sodipodi:role="line"
          id="tspan9"
-         x="-444.98251"
-         y="164.19128"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.0659px;font-family:'Px437 ToshibaSat 8x8';-inkscape-font-specification:'Px437 ToshibaSat 8x8';fill:#808080;stroke-width:0.367216">SudokuPlayer</tspan></text>
+         x="-467.50647"
+         y="189.74983"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.1795px;font-family:'Px437 ToshibaSat 8x8';-inkscape-font-specification:'Px437 ToshibaSat 8x8';fill:#808080;stroke-width:0.451497">SudokuPlayer</tspan></text>
   </g>
 </svg>
